@@ -57,19 +57,27 @@ li::marker{
 
 .card{
     max-width: 100%;
-    width: 660px;
+    width: 738px;
     min-height: 100vh;
     background: hsl(0, 0%, 100%);
     margin-top: 110px;
     margin-bottom: 122px;
     border-radius: 20px;
-    padding: 40px;
+}
+
+.img-container{
+    margin: 0;
+    padding: 40px 40px 0;
 }
 
 .image{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.text{
+    padding: 0 40px 40px;
 }
 
 .prep{
@@ -128,3 +136,19 @@ td{
     color: hsl(14, 45%, 36%);
 }
 
+@media only screen and (max-width: 375px) {
+    body {
+      padding: 0;
+    }
+    .card{
+        margin:0;
+        border-radius: 0;
+    }
+
+    .img-container{
+        margin: 0;
+    }
+    img{
+        border-radius: 0;
+    }
+  }
