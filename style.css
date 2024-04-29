@@ -147,6 +147,7 @@ td{
 
     .img-container{
         margin: 0;
+        padding: 0;
     }
     img{
         border-radius: 0;
